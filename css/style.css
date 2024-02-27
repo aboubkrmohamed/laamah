@@ -301,6 +301,11 @@ border-radius: 5px;
   border-radius: 10px;
 }
 
+.description p
+{
+  font-size: 1.1rem;
+  font-weight:500;
+}
 .description p:nth-child(odd)
 
 {
@@ -308,6 +313,14 @@ border-radius: 5px;
   padding: 10px 15px;
   border-radius: 10px;
 }
+
+.description h3 
+{
+  color: #23262f;
+  font-weight: 700;
+  text-decoration: underline
+}
+
 
 
 /* Similar-ads  */
