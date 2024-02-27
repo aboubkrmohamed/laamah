@@ -200,7 +200,54 @@ swiper-slide img {
 
 .left-side
 {
-    padding: 20px;
     background-color: #fff;
-    box-shadow: -15px 15px 20px #dcdcdc;
+}
+
+.salary-contact
+{
+  padding: 20px;
+  box-shadow: 5px 1px 40px #dcdcdc;
+  border-radius: 10px;
+}
+
+.adv-public li
+{
+   list-style:  disc !important;
+ 
+ }
+
+ /* advertisement-owner  */
+ .advertisement-owner 
+ {
+  border-radius: 10px;
+  border: #dcdcdc 2px solid;
+  padding: 15px 10px; 
+}
+
+.location-map 
+{
+  border-radius: 10px;
+  border: #dcdcdc 2px solid;
+  padding: 15px 10px; 
+}
+
+/* advertisement-financier */
+.advertisement-financier 
+{
+  border-radius: 10px;
+  background-color: #f7f7fd;
+  padding: 15px 10px;
+  border: #dcdcdc 1px solid;
+
+}
+
+.reshared-advertisement
+
+{
+  display: flex;
+  background-color: #fff;
+  padding: 5px;
+  border-radius: 7px;
+  justify-content: space-between;
+  align-items: center;
 }
