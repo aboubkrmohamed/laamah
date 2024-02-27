@@ -72,9 +72,9 @@
  {
     padding:5px 20px ;
     background-color: #fff;
-    border: solid 2px #4179ff;
+    border: solid 2px #d82b34;
     border-radius: 7px;
-    color: #4179ff;
+    color: #d82b34;
     font-size: 1.4rem;
     font-weight: 600;
  }
@@ -86,7 +86,7 @@
  .btns .btn-add-title
  {
     padding:7px 25px ;
-    background-color: #ee9b1f;
+    background-color: #d82b34;
     border: none;
     border-radius: 7px;
     color: #fff;
@@ -250,6 +250,18 @@ swiper-slide img {
   border-radius: 10px;
   border: #dcdcdc 2px solid;
   padding: 15px 10px; 
+}
+
+.advertisement-owner button
+{
+background-color: #d82b34;
+width: 30%;
+text-align: center;
+color: #fff;
+font-weight: 800;
+font-size: 1.4rem;
+border: none;
+border-radius: 5px;
 }
 
 .location-map 
