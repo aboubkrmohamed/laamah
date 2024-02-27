@@ -8,6 +8,13 @@
  {
     list-style: none;
  }
+
+ .row 
+ {
+  left: 0;
+  margin: 0;
+  width: 100%;
+ }
  .main-home 
  {
     width: 100%;
@@ -21,7 +28,11 @@
   font-family: "Vazirmatn";
  }
  /* header-Site */
-
+ .line-sm-screen
+ {
+  display: none;
+ }
+ 
  .header-Site
  {
     background-color: #f2f2f7;
@@ -250,6 +261,12 @@ swiper-slide img {
   border-radius: 10px;
   border: #dcdcdc 2px solid;
   padding: 15px 10px; 
+
+}
+.advertisement-owner-items
+{
+  display: flex;
+  justify-content: center;
 }
 
 .advertisement-owner button
@@ -262,6 +279,7 @@ font-weight: 800;
 font-size: 1.4rem;
 border: none;
 border-radius: 5px;
+margin-top: 20px;
 }
 
 .location-map 

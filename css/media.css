@@ -1,1100 +1,646 @@
 ::-webkit-scrollbar{
     width: 10px;
-    background-color: black;
+    background-color: #f7f7fd;
   }
   ::-webkit-scrollbar-thumb{
-    background-color: #df9030;
+    background-color: #d82b34;
     border-radius: 25px;
 }
 
+
+
+
 a
 {
-    color: #fff !important;
-    text-decoration: none !important;
+   text-decoration: none;
 }
 
-/**************************** footer  **************************************************/
-.big-line{
-    background-color:#DF9030;
-    box-shadow: #1E1E1E;
-    width: 100%;
-    height: 80%;
-    padding: 10px 
-}
-.big-line button {
-    margin: 0 20px;
-    background-color: #1e1e1e;
-    border-radius: 250px;
-    color: #df9030;
-    font-family: 'Barlow Semi Condensed', sans-serif;
-    font-weight: 500;
-    /* padding: 22px; */
-    width: 180px;
-    height: 50px;
-    /* outline: #ff0000; */
-    border:#1E1E1E;
-
-}
-
-.big-line button>a 
+li
 {
-    outline: #ff0000;
-    border:#1E1E1E;
-    text-decoration: none;
-    color: #df9030;
-    font-size: 1.4rem;
-    
+   list-style: none;
 }
-.custom-footer .group{
-    /* margin-left: 32%; */
-    margin: auto;
-    text-align: center;
-}
- .custom-footer {
-    background-color: #000;
-    text-align: center;
-    height: 80%;
-    margin-bottom: 0;
- }
- 
-.overlap-group .icon{
-    width: 65px;
-}
-.group-address{
-    color: #ffffff;
-}
-.overlap-group .address-title ,.call-title ,.mail-title
+.main-home 
 {
-    font-weight: 400;
-    color: #ffffff;
-    font-size: 38px;
-    margin-top: -35PX;
+   width: 100%;
+   overflow-x: hidden;
+   font-family: "Vazirmatn", sans-serif;
+
 }
- 
-.icon-call
+
+*
 {
-    width: 100px;
+ font-family: "Vazirmatn";
 }
-.text-body{
-    color: #fff !important;
-    font-family: "Expo ArabicBook"  !important;
-}
- 
+/* header-Site */
 
-.e-mail-text{
-    color: #ffffff !important;
-    font-family: "Expo Arabic-Medium", Helvetica;
-}
- 
-.mail-icon{
-    width: 110px;
-}
- 
-.row .text{
-    color: white;
-    font-family: "Expo Arabic Book";
-    font-weight: 600;
- }
-
-
- .frame {
-    margin-top: 10px;
-    gap: 25px;
-    }
-
-     .frame a  
-     {
-        color: #fff;
-        width: 50px;
-        height: 50px;
-        padding-top: 10px;
-        border-radius: 50%;
-        border: 2px solid #fff;
-        text-align: center;
-        margin: auto;
-        font-size: 22px;
-     }
-
-     .frame a:hover
-     {
-        border: 2px solid #DF9030;
-        color: #DF9030;
-     }
-
- .frame .icon{
-
-    cursor: pointer; 
-    text-align: center;
-
-
-
- }
- 
-
- .allrights .span {
-    font-family: "Expo Arabic Bold";
-    font-weight: 700;
-    color: #df9030;
-    
- }
-.allrights .hero-tech-all-rights {
-      color: rgb(255, 255, 255);
-       font-family: "Expo Arabic Book";
-       font-size: 15px;
- }
-
-.address h1
+.header-Site
 {
-font-family: "Expo Arabic-Book", Helvetica;
-color: #df9030    ;
-text-align: start;
-
-  }
- 
-.quick-links a 
-{
-    text-decoration: none;
-    color: #fff;
-    padding: 10px 0;
-    font-family: "Barlow Semi Condensed-SemiBold", Helvetica;
-    display: block;
-    text-align: start;
-    transition: all .4s;
- }
-
- .quick-links a:hover
- {
-    color: #DF9030;
- }
-
- .get-in-touch h1
- {
-    font-family: "Expo Arabic-Medium", Helvetica;
-    color: #fff;
-    font-size: 44px;
-    font-weight: 500;
- }
- 
-
- .frame #icons
- {
-     padding: 7px;
-    color: #fff;
-    width: 20px;
-    height: 20px;
-    display: block;
-     border-radius: 50%;
-    border: 1px solid #fff;
-    display: block;
- }
-
- .follow .text{
-    font-family: "Expo Arabic-Medium", Helvetica;
-    color: #df9030;
-    font-size: 44px;
-    font-weight: 500;
- }
-
- .frame #iocns:hover {
-    color: #df9030;
-
- }
-
-  /*************** media query  ****************/
-
-  /************* from size 1200px to 992px  *********/
-  @media screen and (min-width:992px)and (max-width:1200px)
-{
-     
-/* start navbar  */
-
-.nav-links li>a
-{ 
-  font-size: 25px;
-}
-
-/* start title  */
-
-.home-title h1 
-{
-     font-size: calc(2rem + 2vw);   
-}
-.home-title h3 
-{
- 
- 
-font-size: calc(1.7rem + 1.7vw);
+   background-color: #f2f2f7;
+   text-align: end;
+   padding:1px 15% ;
+   font-family: "Vazirmatn";
 
 }
 
-/* end section  */
-
-/************** start button get  *************/
-.get-button 
+.header-Site h5
 {
-     bottom: 12%;
-     left: 38%;
+ font-weight: 700;
 }
-/* title offer  */
-  
-.title h1 
-{
-    font-size: 58px;
- 
- 
- .empty 
- {
-    height: 5px;
-    width: 120px;   
-  }}
+/* nav-content */
 
-  .middle 
-{    
-    margin-top: 10%;
-    margin-bottom: -30%;
+.nav-content
+{
+   /* background-color: red; */
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
 }
 
-.middle h1
+
+.logo-location 
 {
-    font-size: 55px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;    
+}
+.logo-location span
+{
+ font-size: 1.3rem;
+ font-weight: 500;
+ opacity: .8;
 }
 
-/* Unique-Product ---  service ---- Sring-Knowledgeha ----- Warranty---- experience */
+/* notfication-login-Btn */
 
-.Unique-Product p ,.service p
+.notfication-login-Btn 
 {
-    font-size: 17px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
 }
 
-.experience p ,.Warranty p  ,.Sring-Knowledgeha p
+.btns .btn-login 
 {
-    font-size: 20px;
+   padding:5px 20px ;
+   background-color: #fff;
+   border: solid 2px #d82b34;
+   border-radius: 7px;
+   color: #d82b34;
+   font-size: 1.4rem;
+   font-weight: 600;
+}
+.btns .btn-login:hover
+{
+   background-color: rgba(0, 0, 0, .03);
 }
 
-.Unique-Product h4 ,.experience h4 ,.Warranty h4 ,.Sring-Knowledgeha h4 ,.service h4
+.btns .btn-add-title
 {
-    color:#DF9030;
-    padding-top: 18px;
+   padding:7px 25px ;
+   background-color: #d82b34;
+   border: none;
+   border-radius: 7px;
+   color: #fff;
+   opacity: 0.85;
+   font-size: 1.4rem;
+   font-weight: 600;
+
+}
+
+
+
+.btn-add-title:hover
+{
+   opacity: 1;
+}
+
+/* nav-links */
+.nav-links 
+{
+background-color: #2c2c2d;
+color: #fff;
+padding: 0 5%;
+}
+
+.nav-list
+{
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+}
+
+.nav-list li 
+{
+ font-size: 1.3rem;
+ font-weight: 500;
+}
+
+/* .location-ele */
+
+.location-ele h5
+{
+   font-weight:800;
+}
+
+.location-ele p 
+{
+ color: #494949;
+ font-size: 1.3rem;
+ font-weight: 500;
+}
+
+/* advertisement */
+
+
+.sub-advertisement
+{
+   border: 1px solid #dcdcdc;
+   padding:10px 20px;
+   border-radius: 10px;
+   cursor: pointer;
 }
 
  
-.right-side ,.left-side
-{
- 
-   margin-left: 10%;
+
 
   
- }
- 
- 
-.first-layer 
-{
-    top: -30%;
- 
-}
-
-.first-layer2 
-{
-    top: 80%;
-   bottom: 0;
-   right: 10%;
- 
-}
-
-.big-line{
- 
-    width: 100%;
-    height: 80%;
-    /* padding: 10px ; */
-    overflow: hidden;
-}
-.big-line button {
-    margin: 0 5px;
-    border-radius: 250px;
-    width: 150px;
-    height: 50px
-}
-
-.big-line button>a 
-{
-    font-size: 1.1rem;   
-}
-
-}
-
-  /************* from size 992px to 768px  *********/
-  @media screen and (min-width:768px)and (max-width:992px)
-{
- 
-/* start navbar  */
-.AllLinks 
-{
-font-size: 22px !important;
-}
-
- .logo-right
- {
-width: 90px;
- }
-
- .logo-left
- {
-    width: 60px;
- }
-/* start title  */
-.home-title
-{
-    margin-top: 12%;
-}
-
-.home-title h1 
-{
-     font-size: calc(1.5rem + 1.5vw);   
-}
-.home-title h3 
-{
- 
- 
-font-size: calc(1.2rem + 1.2vw);
-
-}
-
-/* end section  */
-
- .s-h
- {
-     margin: 0 !important;
-    padding: 0 !important;
- 
- }
-
-/************** start button get  *************/
-.get-button 
-{
-     bottom: 12%;
-     left: 33%;
-}
-
-.title h1 
-{
-    font-size: 54px;
- .empty 
- {
-    height: 4px;
-    width: 100px;     
- }
-
- }
-
- /************** section middle offer  *************/
-
- 
- .seconde-layer2 img 
-{
-    width: 100%;
-}
-
-.seconde-layer img 
-{
-    width: 50%;
-}
- 
-.first-layer 
-{
-    top: -30%;
-}
-
-.first-layer2 
-{
-    top: 80%;
-   bottom: 0;
-   right: 10%;
-}
- .middle 
-{    color: #fff;
-    text-align: center; 
-     left: 40%;
-     position: relative;
-     /* top: -30%; */
-    margin-bottom: -50%;
-    padding-top: 10%;
-/* background-color: red; */
-
-}
-
-.middle h1
-{
-    font-family: Barlow Semi Condensed;
-    font-size: 50px;
-    font-weight: 500;
-}
- .Unique-Product p ,.service p
-{
-    font-size: 15px;
-}
-
-.experience p ,.Warranty p  ,.Sring-Knowledgeha p
-{
-    font-size: 18px;
-}
-
-.Unique-Product h4 ,.experience h4 ,.Warranty h4 ,.Sring-Knowledgeha h4 ,.service h4
-{
-    color:#DF9030;
-    padding-top: 18px;
-}
-
-.Unique-Product  ,.experience ,.Warranty ,.Sring-Knowledgeha,.service 
-
-{
-    width: 100%;
-}
-
-.Unique-Product ,.experience 
-{
-    margin-top: 30%;
-
-}
-
-/**************** start footer  ****************/
-
- 
-/* get in toucch  */
-.overlap-group .icon{
-    width: 45px;
-}
-.overlap-group .address-title ,.call-title,.mail-title
-{
- 
-    font-size: 22px;
-    margin-top: -20PX;
-}
-.icon-call
-{
-    width: 55px;
-}
-.mail-icon{
-    width: 60px;
-}
-   
-.big-line button {
-    margin: 0 5px;
-    border-radius: 250px;
-    width: 140px;
-    height: 40px;
-}
-
-.big-line button>a 
-{
-    font-size: 1.1rem;
-}
-
- 
  
 
- 
+.location-map 
+{
+ border-radius: 10px;
+ border: #dcdcdc 2px solid;
+ padding: 15px 10px; 
+}
+
+/* advertisement-financier */
+.advertisement-financier 
+{
+ border-radius: 10px;
+ background-color: #f7f7fd;
+ padding: 15px 10px;
+ border: #dcdcdc 1px solid;
+
+}
+
+.reshared-advertisement
+
+{
+ display: flex;
+ background-color: #fff;
+ padding: 5px;
+ border-radius: 7px;
+ justify-content: space-between;
+ align-items: center;
+}
+
+/* description */
+
+.description 
+{
+ border: #dcdcdc 1px solid;
+ padding: 20px;
+ border-radius: 10px;
+}
+
+.description p
+{
+ font-size: 1.1rem;
+ font-weight:500;
+}
+.description p:nth-child(odd)
+
+{
+ background-color: #f7f7fd;
+ padding: 10px 15px;
+ border-radius: 10px;
+}
+
+.description h3 
+{
+ color: #23262f;
+ font-weight: 700;
+ text-decoration: underline
+}
+
+
+
+/* Similar-ads  */
+
+.Similar-ads  
+{
+ background-color: #f8f8f8;
+ padding: 5% 1%;
+}
+
+  /************* from size from 1350px to 1200px  *********/
+@media screen and (min-width:1200px) and (max-width:1350px)
+
+{
+/* nav-links */
+.nav-links 
+{
+padding: 0 1%;
+}
+
+.nav-list li 
+{
+ font-size: 1.2rem;
+}
+
+
 
 }
 
 
-  /************* from size from 768px to 506  *********/
-  @media screen and (min-width:506px) and (max-width:768px)
-{
-/* start navbar  */
- .logo-right
- {
-width: 90px;
-display: none;
+  /************* from size from 1200px to 992px  *********/
+  @media screen and (min-width:992px) and (max-width:1200px)
 
- }
-
- .logo-left
- {
-    width: 60px;
- }
-/* start title  */
-
-.home-title h1 
-{
-     font-size: calc(1.5rem + 1.5vw);   
-}
-.home-title h3 
-{
-font-size: calc(1.2rem + 1.2vw);
-
-}
-/* end section  */
-
-/************** start button get  *************/
-.home-one
-{
-         height: 70vh;     
- }
-
-.get-button 
-{
-
-     bottom: 3% ;
-     left: 30%;
-     /* background-color: red; */
- }
-
-.menue 
-{
-    padding: 8px 0;
-     width: 60px;
-    height: 40px;
-}
-
- .text
- {
-    font-size: 18px;
- }
-
-.Mobil,.video,.Demo,.presentaion
-{
-    position: absolute;
-    z-index: -9;
-    opacity: 0;
-    transition: all 1s;
-    width: 60px;
-    height: 60px;
-
-    color: #fff;
-    
-
-
-}
- 
-.master:hover 
-{
-
-  
-   
-    .presentaion ,.Demo ,.video ,.Mobil
-{
-    width: 100px;
-    height: 40px;
-}
- 
- 
-}
-
-/* offer title  */
-
-.title h1 
-{
-    font-size: 54px;
- .empty 
- {
-    height: 4px;
-    width: 100px;     
- }
- }
-
-  /************** section middle offer  *************/
-
-  
- .right-side ,.left-side
- {
- 
-    margin-left: 0%;
-
-   
-  }
- 
- 
-  .middle 
-  {     
-        left: 0%;
-        margin-bottom: 0%;
-      padding-top: 15%;
-  /* background-color: red; */
-  
-  }
-  
-  .middle h1
   {
-       font-size: 45px;
+ /* nav-links */
+.nav-links 
+{
+padding: 0;
+}
+
+.nav-list li 
+{
+ font-size: 1.1rem;
+}
+
+
+  
+  }
+  
+
+
+  
+  /************* from size from 992px to 786px  *********/
+  @media screen and (min-width:768px) and (max-width:992px)
+
+  {
+
+     /* nav-links */
+.nav-links 
+{
+padding: 0;
+}
+
+.nav-list li 
+{
+ font-size: .8rem;
+}
+   
+  /* salary-contact */
+.salary-contact
+{
+    margin-top: 10px;
+ padding: 20px;
+ }
+
+.adv-public h5 
+{
+    font-size: 1.7rem;
+    font-weight: 700;
+}
+.adv-public li
+{
+   font-size: 1.2rem;
+  font-weight: 500;
+
+}
+
+/* advertisement-owner-items */
+
+.advertisement-owner h4
+{
+font-size: 1.8rem;
+font-weight: 700;
+margin-bottom: 20px;
+}
+
+.advertisement-owner-items 
+{
+    justify-content: space-around;
+}
+
+.owner-data 
+{
+    text-align: center;
+    padding: 30px;
+}
+.owner-data h5 
+{
+    font-size: 1.6rem;
+}
+
+.owner-data p 
+{
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+/* .location-map */
+
+.location-map h4
+{
+ font-size: 2rem;
+ font-weight: 700;
+}
+.location-map p 
+{
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+  }
+  
+   
+  /************* from size from  786px to 600 *********/
+  @media screen and (min-width:600px)and (max-width:768px) 
+
+  {
+
+    /* nav-content */
+
+.nav-content
+{
+ 
+   justify-content: space-between;
+}
+
+.logo-location img 
+{
+    width: 80%;
+}
+ 
+.logo-location span
+{
+ font-size: 1rem;
+ font-weight: 500;
+ opacity: .8;
+}
+
+/* notfication-login-Btn */
+
+ 
+.btns .btn-login 
+{
+   padding:5px 5px ;
+   font-size: 1rem;
+   font-weight: 600;
+}
+ 
+.btns .btn-add-title
+{
+   padding:5px 10px ;
+   font-size: 1rem;
+
+}
+
+
+
+     /* nav-links */
+.nav-links 
+{
+padding: 0;
+}
+
+.nav-list li 
+{
+ font-size: .7rem;
+}
+/* sub-advertisement */
+.sub-advertisement span
+{   
+    font-size: .8rem;
+    display: block;
+    margin-top: 10px;
+    font-weight: 800;
+}
+  /* salary-contact */
+.salary-contact
+{
+    margin-top: 10px;
+ padding: 20px;
+ }
+
+.adv-public h5 
+{
+    font-size: 1.7rem;
+    font-weight: 700;
+}
+.adv-public li
+{
+   font-size: 1.2rem;
+  font-weight: 500;
+
+}
+
+/* advertisement-owner-items */
+
+.advertisement-owner h4
+{
+font-size: 1.8rem;
+font-weight: 700;
+margin-bottom: 20px;
+}
+
+.advertisement-owner-items 
+{
+    justify-content: space-around;
+}
+
+.owner-data 
+{
+    text-align: center;
+    padding: 30px;
+}
+.owner-data h5 
+{
+    font-size: 1.6rem;
+}
+
+.owner-data p 
+{
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+/* .location-map */
+
+.location-map h4
+{
+ font-size: 2rem;
+ font-weight: 700;
+}
+.location-map p 
+{
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+/* Similar-ads */
+.Similar-ads-imges 
+{
+margin-top: 25px;
+}
+  }
+  
+
+    /************* from size from  786px to 600 *********/
+    @media screen and (max-width:600px) 
+
+    {
+  
+      /* nav-content */
+  
+  .nav-content
+  {
+   
+     display: block;
+  }
+  .logo-location 
+  {
+    justify-content: space-around;
+  }
+  .logo-location img 
+  {
+      width: 100%;
+  }
+   
+  .logo-location span
+  {
+   font-size: 1.2rem;
+   font-weight: 700;
+   opacity: .8;
+  }
+  
+  /* notfication-login-Btn */
+  
+  .notfication-login-Btn 
+{
+   margin-top: 12px;
+   justify-content: center;
+   align-items: center;
+}
+
+   .btns .btn-login 
+  {
+     padding:5px 20px ;
+     font-size: 1.1rem;
+     font-weight: 700;
+  }
+   
+  .btns .btn-add-title
+  {
+     padding:5px 20px ;
+     font-size: 1.1rem;
+  
+  }
+  
+  
+    /* nav-links */
+  .nav-links 
+  {
+    display: none;
+  /* padding: 0; */
+  }
+  .line-sm-screen
+  {
+    display: block;
+  }
+  
+  /* sub-advertisement */
+  .sub-advertisement span
+  {   
+      font-size: .8rem;
+      display: block;
+      margin-top: 10px;
+      font-weight: 800;
+  }
+    /* salary-contact */
+  .salary-contact
+  {
+      margin-top: 10px;
+   padding: 20px;
+   }
+  
+  .adv-public h5 
+  {
+      font-size: 1.7rem;
+      font-weight: 700;
+  }
+  .adv-public li
+  {
+     font-size: 1.2rem;
+    font-weight: 500;
+  
+  }
+  
+  /* advertisement-owner-items */
+  
+  .advertisement-owner h4
+  {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  }
+  
+  .advertisement-owner-items 
+  {
+       display: block;
+  }
+  
+  /* .owner-data  */
+
+  .owner-data 
+  {
+      text-align: center;
+      padding: 30px;
+   }
+  .owner-data h5 
+  {
+      font-size: 1.4rem;
+  }
+  
+  .owner-data p 
+  {
+      font-size: 1.2rem;
       font-weight: 500;
   }
   
- 
-  .middle h1>br 
+  .image-advertisement-owner 
   {
-    display: none;
-  }
-
-  .experience p ,.Warranty p  ,.Sring-Knowledgeha p
-{
-    font-size: 18px;
-}
-
-.Unique-Product p ,.service p
-{
-    font-size: 15px;
-}
-
-.Unique-Product h4 ,.experience h4 ,.Warranty h4 ,.Sring-Knowledgeha h4 ,.service h4
-{
-    color:#DF9030;
-    padding-top: 18px;
-}
-
-.Unique-Product  ,.experience ,.Warranty ,.Sring-Knowledgeha,.service 
-
-{
-    width: 100%;
- }
- .success-image 
-{
-    margin: auto;
-    /* width: 20%; */
-    text-align: center;
-}
-.success-image img
-{
-    width: 40%;
-}
-
-.address h1 ,.quick-links a 
-{
- 
-text-align: center;
-
-  }
- 
-    
- 
- 
-
-.big-line button {
-    margin: 0 5px;
-    border-radius: 250px;
-    width: 100px;
-    height: 40px;
-}
-
-.big-line button>a 
-{
-    font-size: .8rem;
-}
-
-
-}
-
-
-  /************* from size from 768px to 560px  *********/
-/* @media screen and (min-width:560px) and (max-width:768px)
-
- */
-
-
-  /************* from size from 768px to 506  *********/
-  @media screen and (max-width:506px)
-{
-
- .logo-right
- {
-width: 90px;
-display: none;
-
- }
-
- .logo-left
- {
-    width: 60px;
- }
-/* start title  */
-
-.home-title h1 
-{
-     font-size: calc(1rem + 1vw);   
-}
-.home-title h3 
-{
- 
- 
-font-size: calc(.8rem + .8vw);
-
-}
-
-/* end section  */
-
-
-/************** start button get  *************/
- 
-.home-one
-{
-         height: 70vh;     
- }
-
-.get-button 
-{
-     bottom: 4%;
-     left: 20%;
- }
-
-.menue 
-{
-    padding: 8px 0;
-     width: 60px;
-    height: 40px;
-}
- 
- .text
- {
-    font-size: 18px;
- }
-
-.Mobil,.video,.Demo,.presentaion
-{
-    position: absolute;
-    z-index: -9;
-    opacity: 0;
-    transition: all 1s;
-    width: 60px;
-    height: 60px;
-
-    color: #fff;
-    
-
-
-}
- 
-.master:hover 
-{ 
-    .presentaion ,.Demo ,.video ,.Mobil
-{
-    width: 100px;
-    height: 40px;
-}
- 
- 
-}
-
-.right-side ,.left-side
-{
-   margin-left: 0%;
- }
-
- .middle 
- {     
-       left: 0%;
-       margin-bottom: 0%;
-     padding-top: 20%;
- }
- 
- .middle h1
- {
-      font-size: 45px;
-     font-weight: 500;
- }
- 
-
- .middle h1>br 
- {
-   display: none;
- }
-.middle h1>br 
-{
-  display: none;
-}
-
-
-.experience p ,.Warranty p  ,.Sring-Knowledgeha p
-{
-    font-size: 18px;
-}
-.Unique-Product p ,.service p
-{
-    font-size: 15px;
-}
-.Unique-Product h4 ,.experience h4 ,.Warranty h4 ,.Sring-Knowledgeha h4 ,.service h4
-{
-    color:#DF9030;
-    padding-top: 18px;
-}
-
-.Unique-Product  ,.experience ,.Warranty ,.Sring-Knowledgeha,.service 
-
-{
-    width: 100%;
- }
- .success-image 
-{
-    margin: auto;
-    /* width: 20%; */
-    text-align: center;
-}
-.success-image img
-{
-    width: 40%;
-}
-
-.address h1 ,.quick-links a 
-{
- 
-text-align: center;
-
-  }
- 
-   
-  .big-line button {
-    margin: 0 2px;
-    border-radius: 250px;
-    width: 85px;
-    height: 50px;
-}
-
-.big-line button>a 
-{
-    font-size: .6rem;
-}
-
-
-}
-
-
-@media screen  and (max-width:420px) 
-{
-    
-/************** start button get  *************/
-.get-button 
-{
-     bottom: 2%;
-     left: 3%;
-}
-
-.menue 
-{
-    padding: 8px 0;
-     width: 60px;
-    height: 40px;
-}
-
- .text
- {
-    font-size: 16px;
- }
-
-.Mobil,.video,.Demo,.presentaion
-{
-    width: 60px;
-    height: 50px;
-}
- 
-.master:hover 
-{
-    .presentaion ,.Demo ,.video ,.Mobil
-{
-    width: 100px;
-    height: 40px;
-}
-}
-
-/* offer title  */
-
-.title h1 
-{
-    font-size: 35px;
- .empty 
- {
-    height: 3px;
-    width: 80px;     
- }
- }
-
- .middle 
- {     
-       left: 0%;
-       margin-bottom: 0%;
-     padding-top: 55%;
- }
- 
- .middle h1
- {
-       font-size: 45px;
-     font-weight: 500;
- }
- .middle h1>br 
- {
-   display: none;
- }
-
- 
-.experience p ,.Warranty p  ,.Sring-Knowledgeha p
-{
-    font-size: 16px;
-}
-.Unique-Product p ,.service p
-{
-    font-size: 13px;
-}
-.Unique-Product h4 ,.experience h4 ,.Warranty h4 ,.Sring-Knowledgeha h4 ,.service h4
-{
-    color:#DF9030;
-    padding-top: 18px;
-}
-
-.Unique-Product  ,.experience ,.Warranty ,.Sring-Knowledgeha,.service 
-
-{
-    width: 100%;
-    padding: 10%;
- }
- .success-image 
-{
-    margin: auto;
-    /* width: 20%; */
-    text-align: center;
-}
-.success-image img
-{
-    width: 40%;
-}
-.address h1 ,.quick-links a 
-{
- 
-text-align: center;
-
-  }
- 
-  .big-line button {
-    margin: 0 1px;
-    border-radius: 250px;
-    width: 65px;
-    height: 40px;
-}
-
-.big-line button>a 
-{
-    font-size: .4rem;
-}
-
-}
-
-
-
-/* media navbar  */
-@media screen and (max-width:768px) {
-
-
-    .AllLinks
-    {
-        font-size: 20px;
-    }
-.navbar  
-{
-position: absolute;
-top:10px;
-right: 20px;
- 
-}
-
-.navbar-collapse 
-{
-    margin: 50px 0;
      text-align: center;
-    padding: 59px 20px 0;
-    background-color: rgb(0, 0, 0   );
-    z-index: 999999999;
+  }
+  .image-advertisement-owner img
+  {
+    width: 30%;
+  }
+
+  .advertisement-owner button
+{
+    margin-top: 5px;
+ 
+}
+  /* .location-map */
+  
+  .location-map h4
+  {
+   font-size: 2rem;
+   font-weight: 700;
+  }
+  .location-map p 
+  {
+      font-size: 1.4rem;
+      font-weight: 500;
+  }
+
+
+  /* Similar-ads */
+.Similar-ads-imges 
+{
+margin-top: 25px;
+}
+    }
     
-}
- .navbar-toggler
- {
-background-color: #DF9030 !important;
-position: absolute;
-top: 10px;
-right: 20px;
-
-  }
- 
-}
-
-
-.up-button {
-    display: none;
-    background-color: #fd7e14;
-    border-radius: 4px;
-    width: 50px;
-    height: 50px;
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    cursor: pointer;
-    transition: opacity 0.3s ease-in-out;
-    z-index: 9;
-  }
-  
-  .up-button:hover {
-    background-color: #e2b41e;
-  }
-  
-  .up-button img {
-    width: 15px;
-    height: 10px;
-    margin-left: 32%;
-    margin-top: 30%;
-  }
-
- .AllLinks 
- {
-color: #fff !important;
-font-family: 'Barlow Semi Condensed', sans-serif !important;
-font-weight: 500 !important;
-font-size: 28px ;
-transition: all .3s !important;
- }
- .AllLinks:hover
- {
-     color: #DF9030 !important;
- }
-  
- .active-link
-{
-  color: #df9030 !important;
- }
- 
-
-.get-in-touch ,.text-body,.address-title ,.call-title ,.mail-title,.span,.text
-{
-    font-family: "Expo Arabic-Medium", Helvetica !important;
-}
-
-.loading
-{
-  background-color: #000000;
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  z-index: 9999999999999999999;
-  display: block;
- text-align: center;
- padding-top: 6%;
- }
-
-
-
- 
-
-.load-icon 
-{
-    font-size: 8rem;
-    color: #DF9030;
-     -webkit-animation: spin 2s linear infinite; 
-    animation: spin 2s linear infinite;
-    
- }
-
-   @-webkit-keyframes spin {
-    0% { -webkit-transform: rotate(0deg); }
-    100% { -webkit-transform: rotate(360deg); }
-  }
-  
-  @keyframes spin {
-    0% { transform: rotate(0deg); }
-    100% { transform: rotate(360deg); }
-  } 
