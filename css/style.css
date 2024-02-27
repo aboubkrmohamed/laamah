@@ -125,16 +125,27 @@ padding: 0 5%;
 }
  
 
-.location-ele span 
+.location-ele h5
 {
-    font-weight:700;
+    font-weight:800;
 }
+
+.location-ele p 
+{
+  color: #494949;
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
+/* advertisement */
+
 
 .sub-advertisement
 {
     border: 1px solid #dcdcdc;
     padding:10px 20px;
     border-radius: 10px;
+    cursor: pointer;
 }
 
 /* Swiper style */
