@@ -7,8 +7,8 @@
 
     <title>Laamah</title>
     <link rel="icon" href="img/logoLamah.png" type="image/x-icon">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/bootstrap.min.css.map">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.rtl.min.css" integrity="sha384-dpuaG1suU0eT09tx5plTaGMLBsfDLzUCCUXOY2j/LSvXYuG6Bqs43ALlhIqAJVRb" crossorigin="anonymous">
+
     <link rel="stylesheet" href="fonts/v1.woff2">
     <link rel="stylesheet" href="css/all.min.css">
     <link rel="stylesheet" href="css/animate.css">
@@ -22,393 +22,283 @@
 
 <section id="main-home">         
   
-  <!-- header-Site -->
-<div class="header-Site pt-2">
-  <h5>  اتصل بنا <i class="fa-solid fa-phone" style="color: #d82b34;"></i> | English </h5>
+  
+ <!-- nav links  -->
+ 
+ <div class="nav-links">
+  <ul class="nav-list pt-2 pb-2">
+    <li>الرئيسيه</li>
+    <li>حراج السيارات</li>
+    <li> اجهزه  </li>
+    <li> عقارات </li>
+    <li> مواشي وحيوانات</li>
+    <li>   خدمات</li>
+    <li>   اقسام اكثر </li>
+ 
+  </ul>
 </div>
 
-
-  <!-- nav-content -->
- <div class="nav-content mt-4">
+<div class="nav-content mt-4">
 
   <!-- logo-location -->
   <div class="logo-location">
-    <div><img src="img/logo-2 1.png"> </div>   
-
-    <div class="pe-3" >
-      <span><i class="fa-solid fa-location-dot"></i> السعوديه </span>
-      <span>-  كل المدن <i class="fa-solid fa-angle-down"></i></span>
-    </div> 
-
+    <div><img src="img/logo-2 1.png"> </div>    
 
   </div>
 
   <!-- notfication-login-Btn -->
 
   <div class="notfication-login-Btn">
-    <!-- <div class="d-flex" style="justify-content: space-around;">
-      <i class="pe-3 fa-brands fa-stack-exchange"></i>
-      <i class="pe-3 fa-solid fa-bell"></i>
-      <i class="fa-solid fa-copy"></i>
-        </div> -->
+ 
 
     <div class="btns me-3">
-      <button class="btn-login"><i class="fa-solid fa-user ms-1"></i> تسجيل  الدخول   </button>
-      <button class="btn-add-title me-3"><i class="fa-solid fa-camera ms-1"></i> أضف إعلانك الآن  </button>
+      <button class="btn-login"> 
+        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="sign-in-alt" class="svg-inline--fa fa-sign-in-alt fa-w-16 fa-flip-horizontal " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M416 448h-84c-6.6 0-12-5.4-12-12v-40c0-6.6 5.4-12 12-12h84c17.7 0 32-14.3 32-32V160c0-17.7-14.3-32-32-32h-84c-6.6 0-12-5.4-12-12V76c0-6.6 5.4-12 12-12h84c53 0 96 43 96 96v192c0 53-43 96-96 96zm-47-201L201 79c-15-15-41-4.5-41 17v96H24c-13.3 0-24 10.7-24 24v96c0 13.3 10.7 24 24 24h136v96c0 21.5 26 32 41 17l168-168c9.3-9.4 9.3-24.6 0-34z"></path></svg>
+        تسجيل  الدخول   </button>
+ 
+        <button class="btn-login"> 
+          <i class="fa-solid fa-arrows-up-down"></i>   
 
+          EN
+          </button>
+          <button class="btn-login"> 
+             <i class="fa-solid fa-moon"></i> 
+  
+             
+            </button>
     </div>
 
+    
+
+</div>
   </div>
 
  </div>
 
+  <!-- header-Site 
+<div class="header-Site pt-2">
+  <h5>  اتصل بنا <i class="fa-solid fa-phone" style="color: #d82b34;"></i> | English </h5> 
+</div>
+-->
+  <!-- nav-content -->
 
- <!-- nav links  -->
- 
-    <div class="nav-links mt-3">
-      <ul class="nav-list pt-2 pb-2">
-        <li>الوظائف</li>
-        <li>عقارات</li>
-        <li> سيارات </li>
-        <li> حيوانات </li>
-        <li> أثاث وديكور</li>
-        <li>أجهزة</li>
-        <li>خدمات  </li>
-        <li>متنوعة</li>
-        <li>ازياء </li>
-        <li>مواد بناء</li>
-        <li>مفقودات</li>
-        <li>تجميل</li>
-        <li>أسر منتجة</li>
-        <li>اطعمة وترفيه</li>
-      </ul>
-    </div>
+
 
     <div class="container">
+ 
+    <!-- slider & cash  -->
+    <div class="row mt-2">
 
-      <hr class="line-sm-screen">
-          <!-- location elements -->
-    <div class="location-ele">
+      <div class="col-md-4 bg-light" >
+        
+        <select class="form-select mt-2"  >
+          <option selected>  الكل   </option>
+          <option value="1">حراج السيارات</option>
+          <option value="2">حراج الاجهزه</option>
 
-            <h5>   <span>        خدمات       <i class="fa-solid fa-angle-left"></i>  خدمات نظافة   </span></h5>
-            <p>شركه تنظيف منازل بالرياض0539409941</p>
+      </select>  
 
+      <select class="form-select mt-3"  >
+        <option selected>  الكل   </option>
+        <option value="1">حراج السيارات</option>
+        <option value="2">حراج الاجهزه</option>
+
+    </select>  
+
+    <button  class="form-control mt-3"  type="submit" style="background-color:#3062ad ;text-align: center; color: #fff;"> <i class="fa-solid fa-magnifying-glass"></i></button>
       
+         <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button bg-transparent"  type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" style="font-weight: 700;font-size: 1.5rem; color: #3a73cc; ">
+                تصفية 
+              </button>
+            </h2>
 
-     </div>
+            <div id="collapseOne" class="accordion-collapse collapse show " data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <button class="form-control " >جديد فقط </button>
+              </div>
+            </div>
 
-    <!-- advertisement -->
 
-    <div class="advertisement mt-4">
-
-      <div class="d-flex justify-content-start">
-
-        <div  class="sub-advertisement ms-2">
-          <svg width="37" height="32" viewBox="0 0 20 28" fill="none" xmlns="http://www.w3.org/2000/svg" data-name="IconShare">
-            <path fill="#000" d="M15 5.25L13.225 7.025L11.2375 5.0375V19H8.7625V5.0375L6.775 7.025L5 5.25L10 0.25L15 5.25ZM20 11.5V25.25C20 26.625 18.875 27.75 17.5 27.75H2.5C1.1125 27.75 0 26.625 0 25.25V11.5C0 10.1125 1.1125 9 2.5 9H6.25V11.5H2.5V25.25H17.5V11.5H13.75V9H17.5C18.875 9 20 10.1125 20 11.5Z"></path>
-          </svg>    
-          <span>شارك الإعلان</span>
-
+          </div>
+      
         </div>
-    
+
+
+              
+       <div class="accordion " id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button bg-transparent"  type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo" style="font-weight: 700;font-size: 1.5rem; color: #3a73cc; ">
+              تنقل السريع 
+            </button>
+          </h2>
+
+          <div id="collapseTwo" class="accordion-collapse collapse show " data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+
+              <div class="row">
+
+                <div class="col-4  " >
+                  <div class="logos">
+                  <img src="img/mercedes-logo.svg" class="w-100">
+                  </div>
+                </div>
+
+                <div class="col-4  " >
+                  <div class="logos">
+                  <img src="img/toyota-logo.svg" class="w-100">
+                  </div>
+                </div>
+
+                <div class="col-4  " >
+                  <div class="logos">
+                  <img src="img/nissan-logo.svg" class="w-100">
+                  </div>
+                </div>
+
+              </div>
+
+              <hr>
+              
+              <div class="row">
+
+                <div class="col-4  " >
+                  <div class="categories">
+                  <i class="fa-solid fa-truck-moving categories-icon" ></i>
+                  </div>
+                </div>
+
+                <div class="col-4" >
+                  <div class="categories">
+                    <i class="fa-solid fa-screwdriver-wrench categories-icon"></i>
+                  </div>
+                </div>
+
+
+                <div class="col-4" >
+                  <div class="categories">
+                    <i class="fa-solid fa-car-side categories-icon"></i>
+                   </div>
+                </div>
+
+              </div>
+
+              <hr>
+
+              <div class="row">
+
+
+                <div class="col-4  " >
+                  <div class="logos">
+                  <img src="img/microsoft-logo.svg" class="w-100">
+                  </div>
+                </div>
+
+                <div class="col-4  " >
+                  <div class="logos">
+                  <img src="img/microsoft-logo.svg" class="w-100">
+                  </div>
+                </div>
+
+                <div class="col-4  " >
+                  <div class="logos">
+                  <img src="img/sony-icon.svg" class="w-100">
+                  </div>
+                </div>
+
+              </div>
+
+
+              <hr>
+
+              <div class="row">
+
+                <div class="col-4  " >
+
+                  <div class="categories">
+                    <h5>اراضي للبيع </h5>
+                   </div>
+                </div>
+
+                <div class="col-4 " >
+                  <div class="categories">
+                    <h5>اراضي تجاريه   </h5>
+                   </div>
+                </div>
+
+
+                <div class="col-4" >
+                  <div class="categories">
+
+                    <h5> شقق للايجار</h5>
+                    </div>
+                </div>
+
+              </div>
+              
+            </div>
+          </div>
+
 
      
-        <div  class="sub-advertisement ms-2">
-          <svg viewBox="0 0 32 32" class="inline vMiddle me-8" width="25" height="32px" data-name="iconFavouriteFill">
-            <path fill="#fff" stroke="#ff6262" stroke-width="3" d="M16 28.467l-1.933-1.76c-6.867-6.227-11.4-10.333-11.4-15.373 0-4.107 3.227-7.333 7.333-7.333 2.32 0 4.547 1.080 6 2.787 1.453-1.707 3.68-2.787 6-2.787 4.107 0 7.333 3.227 7.333 7.333 0 5.040-4.533 9.147-11.4 15.387l-1.633 1.747z">  </path>
-          </svg>  
-          <span>  أضف الى المفضلة</span>
-
-        </div>
-
-
-        <div  class="sub-advertisement ms-2">
-          <svg xmlns="http://www.w3.org/2000/svg" width="25" height="32" viewBox="0 0 36 36" fill="#0079FF" class="me-8">
-            <path d="M4.68749 27.375L2.54999 25.2375L14.025 13.8L20.2875 20.0625L28.4625 11.925H23.85V8.92499H33.45V18.525H30.525V14.0625L20.25 24.3375L13.9875 18.075L4.68749 27.375Z" fill="#0079FF"></path>
-          </svg>
-          <span>  تمييز الإعلان</span>
-
-        </div>
-
-        <div  class="sub-advertisement ms-2">          
-        <svg viewBox="0 0 27 25" width="35" height="32" class="scale13 me-8" >
-          <path d="M8.66666667,8.5 L15.3333333,8.5 L15.3333333,10.6 L18,7.8 L15.3333333,5 L15.3333333,7.1 L7.33333333,7.1 L7.33333333,11.3 L8.66666667,11.3 L8.66666667,8.5 L8.66666667,8.5 Z M15.3333333,15.5 L8.66666667,15.5 L8.66666667,13.4 L6,16.2 L8.66666667,19 L8.66666667,16.9 L16.6666667,16.9 L16.6666667,12.7 L15.3333333,12.7 L15.3333333,15.5 L15.3333333,15.5 Z" fill="#0e91f9"></path>
-        </svg>
-        <span>        إعادة نشر الإعلان        </span>
       </div>
 
-        </div>
-
-    </div>
-
-    <!-- slider & cash  -->
-    <div class="row mt-5">
-
-      <!-- right side  -->
-      <div class="col-lg-8">
-
-        <div class="right-side">
-          
-    <swiper-container style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff" class="mySwiper"
-    thumbs-swiper=".mySwiper2" loop="true" space-between="10" navigation="true">
-    <swiper-slide>
-      <img src="img/1.webp" />
-    </swiper-slide>
-    <swiper-slide>
-      <img src="img/2.webp" />
-    </swiper-slide>
-    <swiper-slide>
-      <img src="img/3.webp" />
-    </swiper-slide>
-    <swiper-slide>
-      <img src="img/4.webp" />
-    </swiper-slide>
-    <swiper-slide>
-      <img src="img/5.webp" />
-    </swiper-slide>
-    <swiper-slide>
-      <img src="img/6.webp" />
-    </swiper-slide>
-    <swiper-slide>
-      <img src="img/7.webp" />
-    </swiper-slide>
-    <swiper-slide>
-      <img src="img/8.webp" />
-    </swiper-slide>
-    <swiper-slide>
-      <img src="img/9.webp" />
-    </swiper-slide>
-    <swiper-slide>
-      <img src="img/10.webp" />
-    </swiper-slide>
-  </swiper-container>
-
-  <swiper-container class="mySwiper2" loop="true" space-between="10" slides-per-view="4" free-mode="true"
-    watch-slides-progress="true">
-    <swiper-slide>
-      <img src="img/1.webp" />
-    </swiper-slide>
-    <swiper-slide>
-      <img src="img/2.webp" />
-    </swiper-slide>
-    <swiper-slide>
-      <img src="img/3.webp" />
-    </swiper-slide>
-    <swiper-slide>
-      <img src="img/4.webp" />
-    </swiper-slide>
-    <swiper-slide>
-      <img src="img/5.webp" />
-    </swiper-slide>
-    <swiper-slide>
-      <img src="img/6.webp" />
-    </swiper-slide>
-    <swiper-slide>
-      <img src="img/7.webp" />
-    </swiper-slide>
-    <swiper-slide>
-      <img src="img/8.webp" />
-    </swiper-slide>
-    <swiper-slide>
-      <img src="img/9.webp" />
-    </swiper-slide>
-    <swiper-slide>
-      <img src="img/10.webp" />
-    </swiper-slide>
-  </swiper-container>
-
-       
-
-         </div>
-
-         <hr>
-           <!-- description  -->
-           <div class="description mt-5">
-            <h3>الوصف</h3>
-
-            <div class="row">
-
-              <div class="col-md-6">
-                <div  >
-                  <p>شركة تنظيف وجميع الخدمات 0539409941 ✅ </p>
-                  <p>  تنظيف (مجالس_ كنب_ سجاد) ✅</p> 
-                  <p>    تنظيف خزانات المياه ✅ </p> 
-                  <p>  رش مبيدات من جميع انواع الحشرات الطائره والزاحفه ✅ </p> 
-
-                  <p>  نقل اثاث مع (الفك _التركيب _التغليف _التخزين _التوصيل) ✅ </p> 
-                  <p>  ويوجد لدينا قسم لدهانات (ابواب_شقق_قصور_فلل) ✅ </p> 
-                  <p>   اسعارنا مناسبه تناسب حضراتكم ونحن في الخدمه في اي وقت لتواصل علي الجوال 0539409941 ويوجد واتس على هذا الرقم </p>
+</div>
 
 
-                </div>
-              </div>
+  </div>
 
 
-              <div class="col-md-6">
-                <div>
-                <p>تنظيف (منازل _شقق _قصور _فلل) ✅ </p> 
-                <p>تنظيف مكيفات مع (الفك_التركيب_تعبئه فريون _صيانه) ✅ </p> 
-                <p>  عزل خزانات وعزل اسطح ✅ </p> 
-                <p>  تعقيم المنازل والشركات ✅ </p> 
-                <p>  تركيب طارد حمام ✅ </p> 
-                <p> ويوجد لدينا قسم لتسليك المجاري وكشف تسربات المياه ✅ </p> 
-                <p>      رقم الجوال : 0539409941</p>
-
-                </div>
-              </div>
+  
+  
 
 
-            </div>
-                            
+      <div class="col-md-8 bg-light">
+        <swiper-container class="mySwiper" scrollbar-hide="true"  space-between="30"
+        slides-per-view="5">
+        <swiper-slide>
+          <img src="img/seat.svg" class="w-25" >
+        <p>حراج السيارات</p>
+        </swiper-slide>
 
-          </div>
+        <swiper-slide>
+          <img src="img/more-icon.svg" class="w-25" >
+        <p>حراج السيارات</p>
+        </swiper-slide>
+
+        <swiper-slide>
+          <img src="img/seat.svg" class="w-25" >
+        <p>حراج السيارات</p>
+        </swiper-slide>
+
+        <swiper-slide>
+          <img src="img/seat.svg" class="w-25" >
+        <p>حراج السيارات</p>
+        </swiper-slide>
+
+        <swiper-slide>
+          <img src="img/seat.svg" class="w-25" >
+        <p>حراج السيارات</p>
+        </swiper-slide>
+
+        <swiper-slide>
+          <img src="img/seat.svg" class="w-25" >
+        <p>حراج السيارات</p>
+        </swiper-slide>
+
+        <swiper-slide>
+          <img src="img/seat.svg" class="w-25" >
+        <p>حراج السيارات</p>
+        </swiper-slide>
+
+
+
+      </swiper-container>
+
       </div>
-    
-    <!-- left side  -->
-     <div class="col-lg-4">
-        <div class="left-side">
-
-          <!-- salary---contact  -->
-
-          <div class="salary-contact">
-
-
-            <!-- button -->
-            <div class="contact-btn">
-
-              <div class="d-grid gap-2">
-                <button class="btn btn-danger" type="button"> <i class="fa-solid fa-phone"></i>  05687583XX</button>
-                <button class="btn btn-transparent mt-2 mb-2" style="color: #d82b34; border: 2px solid #d82b34;" type="button"><i class="fa-solid fa-message"></i> دردش </button>      
-            </div>
-
-            <!-- list -->
-            <ul class="adv-public">
-              <h5>نصائح عامة </h5>
-              <li>اجتمع في الأماكن العامة فقط. </li>
-              <li>لا تقم بإرسال المال مسبقاً.</li>
-              <li>قم بتفقد المنتج جيداً قبل شرائه. </li>
-            </ul>
-            </div>
-
-          </div>
-        
-          <!-- advertisement-owner  -->
-
-          <div class="advertisement-owner mt-5">
-            <h4>صاحب الإعلان</h4>
-
-            <div class="advertisement-owner-items" >
-              <!-- image-advertisement-owner -->
-              <div class="image-advertisement-owner ms-2">
-                <img src="img/no_profile.png">
-              </div>
-
-              <div class="owner-data">
-                <h5 > MOHAMMED SAHAJAD   </h5>
-                <svg width="18" height="18" viewBox="0 0 24 24" class="relative " xmlns="http://www.w3.org/2000/svg"><path fill="#ccc" d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"></path></svg>   
-                <svg width="18" height="18" viewBox="0 0 24 24" class="relative " xmlns="http://www.w3.org/2000/svg"><path fill="#ccc" d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"></path></svg>
-                <svg width="18" height="18" viewBox="0 0 24 24" class="relative " xmlns="http://www.w3.org/2000/svg"><path fill="#ccc" d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"></path></svg>
-                <svg width="18" height="18" viewBox="0 0 24 24" class="relative " xmlns="http://www.w3.org/2000/svg"><path fill="#ccc" d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"></path></svg>
-                <svg width="18" height="18" viewBox="0 0 24 24" class="relative " xmlns="http://www.w3.org/2000/svg"><path fill="#ccc" d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"></path></svg>
-                <p>عضو منذ 16-06-2021 
-                  <br>
-                  وقت التجاوب غير متوفر</p>
-              </div>
-
-
-            </div>
-
-            <button class="follow_btn" >
-              <svg class="ms-1" width="14" height="14" viewBox="0 0 24 24" ><path d="M24 10h-10v-10h-4v10h-10v4h10v10h4v-10h10z" fill="#fff"></path></svg>
-              تابع
-            </button>
-          </div>
-
-          <!-- location map  -->
-          <div class="location-map mt-4">
-            <h4>الموقع </h4>
-            <p>الرياض - حي الندوة</p>
-            <!-- <iframe style="border:0; width: 100%"
-                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621"
-                frameborder="0" allowfullscreen></iframe> -->
-                <a data-ghost="map_google" href="https://www.google.com/maps/place/Hayat+Mall/@24.722627,46.668601,12z/data=!4m6!3m5!1s0x3e2f02a6221322ef:0x526eabdb5d275c1d!8m2!3d24.7429006!4d46.6791872!16s%2Fg%2F11h1tcfs1?hl=en-US&entry=ttu" target="_blank" class="sc-750f6c2-0 jMsVvE map_google relative block mt-16"><img src="https://opensooqui2.os-cdn.com/prod/public/images/postMap.webp" alt="map" width="100%" height="100%" class="vTop"><span class="absolute bold blackColor">عرض على الخريطة</span></a>
-          </div>
-
-          <!-- advertisement financier  -->
-
-          <div class="advertisement-financier mt-4">
-            <h4>هل تريد مشاهدات أكثر لاعلانك ؟</h4>
-            <div class="reshared-advertisement">
-
-            <div>  
-              <svg viewBox="0 0 27 25" width="35" height="35" class="scale13" data-name="iconBumpup"><path d="M8.66666667,8.5 L15.3333333,8.5 L15.3333333,10.6 L18,7.8 L15.3333333,5 L15.3333333,7.1 L7.33333333,7.1 L7.33333333,11.3 L8.66666667,11.3 L8.66666667,8.5 L8.66666667,8.5 Z M15.3333333,15.5 L8.66666667,15.5 L8.66666667,13.4 L6,16.2 L8.66666667,19 L8.66666667,16.9 L16.6666667,16.9 L16.6666667,12.7 L15.3333333,12.7 L15.3333333,15.5 L15.3333333,15.5 Z" fill="#0e91f9"></path></svg>
-              <svg viewBox="0 0 24 24" width="35" height="35" class="scale13" data-name="iconPremium"><path d="M4,1.6 L20,1.6 C21.3254834,1.6 22.4,2.6745166 22.4,4 L22.4,20 C22.4,21.3254834 21.3254834,22.4 20,22.4 L4,22.4 C2.6745166,22.4 1.6,21.3254834 1.6,20 L1.6,4 C1.6,2.6745166 2.6745166,1.6 4,1.6 Z" stroke="none" fill="none" stroke-width="0.8"></path><path d="M16.9608355,10.453 C16.9608355,13.196 14.7415144,15.419 12,15.419 C9.25848564,15.419 7.03916449,13.196 7.03916449,10.453 C7.03916449,7.71 9.25848564,5.5 12,5.5 C14.7415144,5.5 16.9608355,7.71 16.9608355,10.453 L16.9608355,10.453 Z M7,16.927 L9.14099217,16.394 L9.83289817,18.5 L11.2689295,15.9 C10.1331593,15.744 9.11488251,15.25 8.31853786,14.522 L7,16.927 L7,16.927 Z M15.6814621,14.522 C14.8720627,15.25 13.8537859,15.744 12.7310705,15.9 L14.1671018,18.5 L14.8590078,16.394 L17,16.927 L15.6814621,14.522 L15.6814621,14.522 Z" fill="#ffa001"></path></svg>
-              <svg viewBox="0 0 24 24" width="35" height="35" class="scale13" data-name="iconTurbo"><path d="M4,1.6 L20,1.6 C21.3254834,1.6 22.4,2.6745166 22.4,4 L22.4,20 C22.4,21.3254834 21.3254834,22.4 20,22.4 L4,22.4 C2.6745166,22.4 1.6,21.3254834 1.6,20 L1.6,4 C1.6,2.6745166 2.6745166,1.6 4,1.6 Z" stroke="none" fill="none" stroke-width="0.8"></path><path d="M17.9874198,6.01195977 C17.9874198,6.01195977 18.2863972,8.70290841 15.9693223,11.0948628 C14.848157,12.2160913 13.2785256,13.1878228 12.0078716,13.9353085 L12.3815934,15.8040228 L11.1856837,17 L10.1392628,14.90704 C9.69079668,15.0565371 9.39181927,15.2060343 9.39181927,15.2060343 L8.79386445,14.6080457 C8.79386445,14.6080457 8.86860881,14.3090514 9.09284186,13.86056 L7,12.8140799 L8.19590963,11.6181028 L10.0645184,12.0665942 C10.811962,10.7211199 11.7836385,9.22614841 12.9795482,8.10491982 C15.3713675,5.71296548 17.9874198,6.01195977 17.9874198,6.01195977 Z M15.5956005,9.59989128 C15.8945779,9.22614841 15.8945779,8.70290841 15.5956005,8.40391411 C15.2218787,8.10491982 14.6986683,8.10491982 14.3996909,8.40391411 C14.1007135,8.77765698 14.1007135,9.30089699 14.3996909,9.59989128 C14.7734126,9.89888557 15.2966231,9.89888557 15.5956005,9.59989128 Z M8.89165487,16.6613268 C9.48326693,16.0697147 9.63116994,15.5520542 9.63116994,15.5520542 C9.63116994,15.5520542 9.85302447,16.5134237 9.1874609,17.1789873 C8.00423678,18.3622115 6.08149758,17.9185024 6.08149758,17.9185024 C6.08149758,17.9185024 5.63778853,15.9957632 6.82101266,14.8125391 C7.41262471,14.1469755 8.37399431,14.3688301 8.37399431,14.3688301 C8.37399431,14.3688301 7.85633376,14.4427816 7.2647217,15.0343936 C6.67310964,15.6260057 6.96891567,16.9571328 6.96891567,16.9571328 C6.96891567,16.9571328 8.30004281,17.2529388 8.89165487,16.6613268 Z" fill="#ff3951"></path></svg>
-              <span>ميز وأعد نشر إعلانك </span>
-
-            </div>
-           
-           <div>
-          <svg viewBox="0 0 32 32" width="24" height="24" data-name="IconLeftArrowHead" data-flip="true"><path fill="#797979" stroke="" stroke-width="" d="M21.547 9.88l-6.107 6.12 6.107 6.12-1.88 1.88-8-8 8-8z"></path></svg>
-
-           </div>
-            </div>
-         
-          </div>
-        
-                    <!-- advertisement financier  -->
-             <div class="advertisement-financier mt-4">
-                      <h4>هل تود اضافة اعلان مماثل ؟ </h4>
-
-                      <div class="reshared-advertisement">
-                      <div>  
-<svg width="26" height="26" viewBox="0 0 26 26" fill="#F39C12" class="inline vMiddle me-8" xmlns="http://www.w3.org/2000/svg" data-name="IconAddPost2"><path d="M22.75 6.50065H19.3158L17.3333 4.33398H10.8333V6.50065H16.38L18.3625 8.66732H22.75V21.6673H5.41667V11.9173H3.25V21.6673C3.25 22.859 4.225 23.834 5.41667 23.834H22.75C23.9417 23.834 24.9167 22.859 24.9167 21.6673V8.66732C24.9167 7.47565 23.9417 6.50065 22.75 6.50065ZM8.66667 15.1673C8.66667 18.1573 11.0933 20.584 14.0833 20.584C17.0733 20.584 19.5 18.1573 19.5 15.1673C19.5 12.1773 17.0733 9.75065 14.0833 9.75065C11.0933 9.75065 8.66667 12.1773 8.66667 15.1673ZM14.0833 11.9173C15.8708 11.9173 17.3333 13.3798 17.3333 15.1673C17.3333 16.9548 15.8708 18.4173 14.0833 18.4173C12.2958 18.4173 10.8333 16.9548 10.8333 15.1673C10.8333 13.3798 12.2958 11.9173 14.0833 11.9173ZM5.41667 6.50065H8.66667V4.33398H5.41667V1.08398H3.25V4.33398H0V6.50065H3.25V9.75065H5.41667V6.50065Z" fill="#F39C12"></path></svg>      
-                   <span> أضف إعلانك الآن</span>
-          
-                      </div>
-                     
-                     <div>
-                    <svg viewBox="0 0 32 32" width="24" height="24" data-name="IconLeftArrowHead" data-flip="true"><path fill="#797979" stroke="" stroke-width="" d="M21.547 9.88l-6.107 6.12 6.107 6.12-1.88 1.88-8-8 8-8z"></path></svg>
-          
-                     </div>
-                      </div>
-                   
-              </div>
-       
-   
-
-
-        </div>
-      
-        </div>
- 
-
-    </div>
-
-
-    <!-- Similar ads -->
-
-    <div class="Similar-ads mt-5">
-      
-    <div class="row">
-         
-      <div class="col-md-4 Similar-ads-imges" >
-        <img src="img/1dis.jpg" class="w-100 h-100"  >
-      </div>
-
-      <div class="col-md-4 Similar-ads-imges">
-        <img src="img/3dis.jpg" class="w-100 h-100"  >
-      </div>
- 
-      <div class="col-md-4 Similar-ads-imges">
-        <img src="img/4dis.jpg" class="w-100 h-100"  >
-      </div>
-
-    </div>
-
-
-    </div>
- 
   </div>
 
 
@@ -428,13 +318,7 @@
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
     <script src="js/js.js"></script>
 
-
-  <!--
-      <script src="js/wow.min.js"></script>
-     <script>
-          new WOW().init();
-          </script> 
-     <script src="js/loading.js"></script> -->
+ 
 
  </body>
 </html>
